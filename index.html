@@ -1,217 +1,55 @@
 <!-- Gabriel Moreira e Luiz Gustavo -->
 <!DOCTYPE html>
-<html lang="PT-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/home.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="./css/css.css">
+    <title>Entrar no Spotify</title>
+    <link rel="shortcut icon" type="img" href="./img/spotify_black_logo_icon_147079-removebg-preview.png">
 </head>
+<body id="body1">
+    <form id="form1" action="" method="POST">
+        
+        <div class="image-container">
+            <img src="./img/33d7d461d1d17c598319f3efd955e88c-removebg-preview (1).png" alt="Imagem" class="center-image">
+            <h2 id="login1">Entrar no Spotify</h2><br>
 
-<body>
-    <div class="sidebar">
-        <div class="sidebar-nav">
-            <div class="sidelogo">
-                <a href=""><img src="./img/logo-new.png" alt=""></a>
+            <div class="botoes2">
+                
+                <center><button class="botao0" type="submit"><img src="./img/logogoogle.png" alt="" width="30px"><a class="a"href="">ﾠContinuar com o Google</a></button></center>
             </div>
-            <ul>
-                <li><a href="">
-                        <span><i class="fa-solid fa-house"></i></span>
-                        <span>Início</span>
-                    </a></li>
-                <li><a href="">
-                        <span><i class="fa-solid fa-magnifying-glass"></i></span>
-                        <span>Buscar</span>
-                    </a></li>
-            </ul>
+            <div class="botoes2">
+                <center><button class="botao0" type="submit"><img src="./img/facebook.png" alt="" width="25px"><a class="a"href="">ﾠContinuar com Facebook</a></button></center>
+            </div>
+            <div class="botoes2">
+                <center><button class="botao0" type="submit"><img src="./img/apple.png" alt="" width="25px"><a class="a"href="">ﾠContinuar com a Apple</a></button></center>
+            </div>
+            <div class="botoes2">
+                <center><button class="botao0" type="submit"><a class="a"href="">Continuar com um número de telefone</a></button></center>
+                
         </div>
-        <div class="sidebar-nav box2">
-            <ul>
-                <li><a href="">
-                        <span><i class="fa-solid fa-book"></i></span>
-                        <span class="biblioteca">Sua Biblioteca</span>
-                    </a></li>
-                <li>
-                    <div class="sidebar-scroll">
-                        <div class="criar-playlist">
-                            <h4>Criar sua playlist</h4>
-                            <p>É fácil, vamos te ajudar</p>
-                            <button>Criar playlist</button>
-                        </div>
-                        <div class="criar-playlist">
-                            <h4>Que tal seguir um podcast novo?</h4>
-                            <p>Avisaremos sobre novos episódios</p>
-                            <button>Explore podcasts</button>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <div class="privacy">
-                <ul>
-                    <li>
-                        <a href="#">Legal</a>
-                        <a href="#">Segurança e privacidade</a>
-                        <a href="#">Política de privacidade</a>
-                    </li>
-                    <li>
-                        <a href="#">Cookies</a>
-                        <a href="#">Sobre anúncios</a>
-                        <a href="#">Acessibilidade</a>
-                    </li>
-                    <li><a href="#">Cookies</a></li>
-                </ul>
+        <p id="linha">____________________________________________________________</p>
+        <div id="divx">
+            <div class="pi">
+                <label class="xx" for="username">E-mail ou nome de usuário:</label>
             </div>
-            <div class="ptbr-btn">
-                <button>Português do Brasil</button>
+            
+            <input class="x1" type="text" id="username" name="username" placeholder="E-mail ou nome de usuário"><br>
+            <div class="pi">
+                <label class="xx" for="password">Senha:</label>
             </div>
+            
+            <input class="x1" type="password" id="password" name="password" placeholder="Senha"><br>
+            <div id="divy">
+                <a href="home.html" class="botaoentrar">Entrar</a>
+            </div>
+            
         </div>
-    </div>
-    <!-- ==========================================fim sidebar========================================================= -->
-    <div class="homepage">
-        <div class="header">
-            <div class="navigation-buttons">
-                <button type="button" class="fa fas fa-chevron-left"></button>
-                <button type="button" class="fa fas fa-chevron-right"></button>
-            </div>
+        
+    
+    </form>
 
-            <div class="navbar">
-                <ul>
-                    <li>
-                        <a href="">Inscrever-se</a>
-                    </li>
-                </ul>
-                <button type="button">Entrar</button>
-            </div>
-        </div>
-
-        <div class="artist-section">
-            <h2>Artistas populares</h2>
-
-            <div class="artist-list">
-                <a href="./ig.html">
-                    <div class="artist-item">
-                    <img src="./img/igorguilherme.jpg" />
-                    <div class="play-button">
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>Mc Ig</h4>
-                    <p>Artista</p>
-                    </div>
-                </a>
-
-                <div class="artist-item">
-                    <img src="./img/hariel.jpg" />
-                    <div class="play-button">
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>Mc Hariel</h4>
-                    <p>Artista</p>
-                </div>
-
-                <div class="artist-item">
-                    <img src="./img/kadu.jfif" />
-                    <div class="play-button">
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>Mc kadu</h4>
-                    <p>Artista</p>
-                </div>
-
-                <div class="artist-item">
-                    <img src="./img/paiva.jpg" />
-                    <div class="play-button">
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>Mc Paiva</h4>
-                    <p>Artista</p>
-                </div>
-
-                <div class="artist-item">
-                    <img src="./img/sabotage.jpg" />
-                    <div class="play-button">
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>Sabotage</h4>
-                    <p>Artista</p>
-                </div>
-
-                <div class="artist-item">
-                    <img src="./img/mc ph.jpg" />
-                    <div class="play-button">
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>Mc PH</h4>
-                    <p>Artista</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="focus-section">
-            <h2>Focus</h2>
-            <div class="album-list">
-                <div class="album-item">
-                    <img src="./img/album gp.jpg" />
-                    <div class="play-button">
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>Nova Tendência</h4>
-                    <p>Mc GP</p>
-                </div>
-
-                <div class="album-item">
-                    <img src="./img/album ig.jpg" />
-                    <div class="play-button">
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>TMOIG</h4>
-                    <p>Mc Ig</p>
-                </div>
-
-                <div class="album-item">
-                    <img src="./img/album kevin.jpg" />
-                    <div class="play-button">
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>Fênix</h4>
-                    <p>Mc Kevin</p>
-                </div>
-
-                <div class="album-item">
-                    <img src="./img/album matue.jpg" />
-                    <div class="play-button">
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>Máquina do tempo</h4>
-                    <p>Matuê</p>
-                </div>
-
-                <div class="album-item">
-                    <img src="./img/album racionais.jpg" />
-                    <div class="play-button">
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>Nada como um dia após o outro</h4>
-                    <p>Racionais</p>
-                </div>
-
-                <div class="album-item">
-                    <img src="./img/avisa lá 4.jpg" />
-                    <div class="play-button">
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>Avisa Lá, Pt.4</h4>
-                    <p>Mc Kelvinho, Mc Hariel, Mc Ryan, Mc Neguinho do Kaxeta...</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://kit.fontawesome.com/ef9a692198.js" crossorigin="anonymous"></script>
 
 </body>
-
 </html>
